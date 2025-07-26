@@ -115,6 +115,9 @@ span{
 .panel-all{
     display: flex;
 }
+.panel-all a{
+    margin-left: 5px;
+}
 .panel-ops div{
     height: 100%;
     display: inline;
@@ -123,6 +126,10 @@ span{
 .panel-ops{
     width: 70%;
     font-size: 0.85rem;
+}
+.panel a{
+    color: white;
+    text-decoration: none;
 }
 .panel-deals{
     display: flex;
@@ -155,8 +162,13 @@ span{
     text-decoration: none;
     color: #007185;
 }
+
+
+/**     CONTENT OR SHOPPING SECTION  **/
+
 .shop-section{
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-evenly;
     align-items: center;
     background-color: #FFE153;
@@ -165,8 +177,91 @@ span{
 .box{
     height: 400px;
     width: 22.8%;
-    border: 2px solid black;
+    /* border: 2px solid black; */
     background-color: white;
+    padding: 20px 0px 15px;
+    margin-bottom: 25px;
+}
+.box-img{
+    height: 300px;
+    background-size: cover;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+.box-content{
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+.box-content a{
+    text-decoration: none;
+    color: rgb(47, 110, 149);
+    font-size: 0.85rem;
+    
 }
 
-/**     CONTENT OR SHOPPING SECTION  **/
+/** FOOTER **/
+
+footer{
+    margin-top: 15px;
+}
+.foot-panel{
+    height: 50px;
+    background-color: #37475a;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.85rem;
+    cursor: pointer;
+}
+.foot-panel2{
+    height: 300px;
+    background-color: #222f3d;
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+}
+ul{
+    margin-top: 20px;
+}
+ul a {
+    display: block;
+    margin-top: 8px;
+    font-size: 0.85rem;
+    color: #dddddd;
+    cursor: pointer;
+}
+.foot-panel2 p {
+    font-weight: 700;
+}
+.foot-panel3{
+    height: 100px;
+    background-color: #222f3d;
+    border-top: 0.5px solid white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.logo2{
+    background-image: url(logo.png);
+    background-size: cover;
+    width: 200px;
+    height: 66px;
+}
+.foot-panel4{
+    height: 60px;
+    background-color: #0f1111;
+    color: #fff;
+    font-size: 0.75rem;
+    padding-top: 20px;
+}
+.pages{
+    text-align: center;
+}
+.copyright{
+    padding-top: 5px;
+    text-align: center;
+}
+.pages a{
+    margin-right: 7px;
+}
